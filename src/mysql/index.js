@@ -2,7 +2,7 @@
  * @Author: 李晓丹 
  * @Date: 2018-12-07 16:12:29 
  * @Last Modified by: 李晓丹
- * @Last Modified time: 2018-12-07 16:30:10
+ * @Last Modified time: 2018-12-11 08:30:49
  */
 
  var mysql = require('mysql');
@@ -24,7 +24,7 @@
   * @param {array} query    查询参数
   * @param {function} fn    回调函数
   */
-
+ 
   /**
    * select * from userlist where uid=?   (sql,uid,function(){})
    * select * from userlist  sql,fn
